@@ -3,8 +3,8 @@
 }
 
 body, html {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .all {
@@ -21,6 +21,7 @@ body, html {
 .card {
     width: 500px;
     height: 500px;
+    display: flex;
 }
 
 .date {
@@ -31,6 +32,7 @@ body, html {
 .bottom {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 
 }
 
